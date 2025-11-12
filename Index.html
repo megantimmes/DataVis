@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exploration of Canada's Indigenous Population</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            overflow-x: hidden;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+            color: #333;
+        }
+
+        .chart-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+        }
+
+        iframe {
+            width: 80%;
+            height: 600px;
+            border: none;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exploration of Canada's Indigenous Population</h1>
+    <h2>Indigenous Populations Percentages</h2>
+    <div class="chart-container">
+        <iframe src="donut.html" title="Indigenous Populations Percentages"></iframe>
+    </div>
+
+    <h2>Map of Indigenous Populations</h2>
+    <div class="chart-container">
+        <iframe src="map.html" title="Indigenous Populations Map"></iframe>
+    </div>
+
+    <h2>Mental Health and Food Insecurity is Worse in Indigenous Populations</h2>
+    <div class="chart-container">
+        <iframe src="scatter.html" title="Scatter plot"></iframe>
+    </div>
+    <h2>Top Provinces by Indigenous Population</h2>
+    <div class="chart-container">
+        <iframe src="subplots.html" title="Subplot"></iframe>
+    </div>
+</body>
+
+</html>
